@@ -1,0 +1,94 @@
+/* h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+
+body{
+	background-color: rgb(5, 158, 185);
+  }
+  
+  p{
+	margin: 6px;
+	text-align: justify;
+	font-size: 18px;
+  }
+  
+  ol{
+	padding-left: 6px;
+	font-size: 18px;
+  }
+  
+  div .link-container{
+	display: flex;
+	justify-content: space-around;
+	font-size: 24px;
+	/* text-decoration: none; */
+  }
+  
+  
+  div .link-container .link:active{
+	text-decoration: none;
+	font-size: 24px;
+	color: rgb(255, 255, 255)
+  }
+  
+  
+  
+  div h1{
+	margin-top: 10vh;
+	text-align: center;
+  }
+  
+  div .count{
+	font-size: 100px;
+  }
+  
+  div input{
+	padding: 2vh 4vw;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5vh;
+  }
+  
+  div .button-container{
+	display: flex;
+	justify-content: center;
+	gap: 2vw
+  }
+  
+  button{
+	padding: 1vh 4vw; 
+	cursor: pointer;
+	transition: 1s ease-in;
+  }
+  
+  button:hover{
+	color: white;
+	background-color: rgb(148, 110, 165);
+  }
+  
+  @media only screen and (max-width: 739px) {
+	div .link-container .link{
+	  text-decoration: none;
+	  font-size: 20px;
+	}
+  }
+
+  @media only screen and (max-width: 610px) {
+	div .link-container .link{
+	  text-decoration: none;
+	  font-size: 16px;
+	}
+  }
+
+  @media only screen and (max-width: 509px) {
+	div .link-container .link{
+	  text-decoration: none;
+	  font-size: 10px;
+	}
+  }
+  
+  
+  
