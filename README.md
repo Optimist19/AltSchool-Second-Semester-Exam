@@ -1,1 +1,2 @@
 This is my hosted project ====> https://zippy-marzipan-7ed47e.netlify.app/
+This is the link to the Article to the project ====> https://optimist19bgo.hashnode.dev/a-custom-counter-article-with-some-amazing-features-written-in-react
